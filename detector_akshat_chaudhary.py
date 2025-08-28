@@ -71,7 +71,7 @@ def mask_combo(key, val):
     return val
 
 input_file = "/Users/akshatchaudhary/Downloads/Project/Flipkart Assessment/iscp_pii_dataset_-_Sheet1.csv"
-output_file = "redacted_output_candidate_full_name.csv"
+output_file = "redacted_output_akshat_chaudhary.csv"
 
 with open(input_file, "r", encoding="utf-8") as f:
     reader = csv.DictReader(f)
